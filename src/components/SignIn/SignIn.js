@@ -14,6 +14,7 @@ function SignIn() {
     <div className={style.wrapper}>
       <GoogleButton onClick={googleSignIn} />
     </div>
+    
   )
 }
 

@@ -11,7 +11,7 @@ function LogOut() {
   };
   return (
     <button onClick={() => auth.signOut()} className={style.button}>
-      Log out
+      Cerrar sesión
     </button>
   );
 }

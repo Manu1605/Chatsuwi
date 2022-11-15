@@ -5,7 +5,7 @@ import SignIn from "../SignIn/SignIn";
 import LogOut from "../LogOut/LogOut";
 
 const styles = {
-  nav: "fixed top-0 z-50 w-full h-24 bg-green-700 shadow-xl px-6 flex justify-between items-center",
+  nav: "fixed top-0 z-50 w-full h-24 bg-violet-400 shadow-xl px-6 flex justify-between items-center",
   title: "text-4xl text-white font-bold ",
 };
 
@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <>
       <div className={styles.nav}>
-        <h1 className={styles.title}>Chat app</h1>
+        <h1 className={styles.title}>Chat Suwi</h1>
         {user ? <LogOut /> : <SignIn />}
         
       </div>
